@@ -66,7 +66,7 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="mensaje" class="col-md-4 col-form-label text-md-right">{{ __('mensaje') }}</label>
+                            <label for="mensaje" class="col-md-4 col-form-label text-md-right">{{ __('Mensaje') }}</label>
 
                             <div class="col-md-6">
                                 <textarea name="mensaje" class="form-control @error('mensaje') is-invalid @enderror" rows="8" id="mensaje" name="mensaje" style="resize:none" required autocomplete="mensaje">{{ old('mensaje') }}</textarea>
